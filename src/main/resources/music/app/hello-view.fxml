@@ -28,7 +28,7 @@
             <Separator maxHeight="-Infinity" orientation="VERTICAL" prefHeight="36.0" prefWidth="2.0" />
             <HBox alignment="CENTER" maxHeight="-Infinity" prefHeight="35.0" prefWidth="290.0" styleClass="round-layout" stylesheets="@../../../java/css/style.css">
                <children>
-                  <TextField prefHeight="26.0" prefWidth="244.0" promptText="Search" styleClass="transparent" stylesheets="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/css/style.css" />
+                  <TextField prefHeight="26.0" prefWidth="244.0" promptText="Search" styleClass="transparent" />
                   <ImageView fitHeight="25.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/img/search.png" />
@@ -72,7 +72,7 @@
                         <Insets left="10.0" />
                      </VBox.margin>
                   </Label>
-                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="37.0" prefWidth="180.0" stylesheets="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/css/style.css" text="Favorite">
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="37.0" prefWidth="180.0" text="Favorite">
                      <graphic>
                         <ImageView fitHeight="34.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -88,7 +88,7 @@
                         <String fx:value="mouse-moved" />
                      </styleClass>
                   </Button>
-                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" stylesheets="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/css/style.css" text="Playlist">
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" text="Playlist">
                      <graphic>
                         <ImageView fitHeight="34.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -104,7 +104,7 @@
                         <String fx:value="mouse-moved" />
                      </styleClass>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="182.0" stylesheets="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/css/style.css" text="Download">
+                  <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="182.0" text="Download">
                      <graphic>
                         <ImageView fitHeight="34.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -132,7 +132,7 @@
                         <Insets left="10.0" />
                      </VBox.margin>
                   </Label>
-                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="37.0" prefWidth="180.0" stylesheets="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/css/style.css" text="New Song">
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="37.0" prefWidth="180.0" text="New Song">
                      <graphic>
                         <ImageView fitHeight="34.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -148,7 +148,7 @@
                         <String fx:value="mouse-moved" />
                      </styleClass>
                   </Button>
-                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" stylesheets="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/css/style.css" text="Kind">
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" text="Kind">
                      <graphic>
                         <ImageView fitHeight="34.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -164,7 +164,7 @@
                         <String fx:value="mouse-moved" />
                      </styleClass>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="182.0" stylesheets="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/css/style.css" text="Top 10">
+                  <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="182.0" text="Top 10">
                      <graphic>
                         <ImageView fitHeight="34.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -180,17 +180,6 @@
                         <String fx:value="mouse-moved" />
                      </styleClass>
                   </Button>
-                  <HBox alignment="CENTER" prefHeight="55.0" prefWidth="180.0" spacing="10.0" styleClass="mouse-moved">
-                     <children>
-                        <VBox prefHeight="192.0" prefWidth="180.0" spacing="5.0">
-                           <children>
-                              <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="10.0" styleClass="mouse-moved" stylesheets="@../../../java/css/style.css" />
-                              <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="10.0" styleClass="mouse-moved" stylesheets="@../../../java/css/style.css" />
-                              <HBox alignment="CENTER" prefHeight="2.0" prefWidth="180.0" spacing="10.0" styleClass="mouse-moved" stylesheets="@../../../java/css/style.css" />
-                           </children>
-                        </VBox>
-                     </children>
-                  </HBox>
                </children>
             </VBox>
          </children>

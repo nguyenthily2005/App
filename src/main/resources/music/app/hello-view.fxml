@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0" spacing="20.0" styleClass="white-background" stylesheets="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/css/style.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="60.0" prefWidth="138.0" text="My music" textFill="#a42727">
+               <font>
+                  <Font name=".VnShelley Allegro" size="36.0" />
+               </font>
+            </Label>
+            <Separator maxHeight="-Infinity" orientation="VERTICAL" prefHeight="36.0" prefWidth="2.0" />
+            <HBox alignment="CENTER" maxHeight="-Infinity" prefHeight="35.0" prefWidth="290.0" styleClass="round-layout" stylesheets="@../../../java/css/style.css">
+               <children>
+                  <TextField prefHeight="26.0" prefWidth="244.0" promptText="Search" styleClass="transparent" stylesheets="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/css/style.css" />
+                  <ImageView fitHeight="25.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/img/search.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <Pane prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="119.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="91.0" styleClass="transparent" stylesheets="@../../../java/css/style.css" text="Logout">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/img/ly.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Berlin Sans FB" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="20.0" right="20.0" />
+         </padding>
+      </HBox>
+   </top>
+   <left>
+      <VBox prefHeight="620.0" prefWidth="180.0" styleClass="white-background" stylesheets="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/css/style.css" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="234.0" prefWidth="180.0" spacing="5.0">
+               <children>
+                  <Label prefHeight="46.0" prefWidth="75.0" text="Library">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="37.0" prefWidth="180.0" stylesheets="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/css/style.css" text="Favorite">
+                     <graphic>
+                        <ImageView fitHeight="34.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/img/fav.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="white-background" />
+                        <String fx:value="mouse-moved" />
+                     </styleClass>
+                  </Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" stylesheets="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/css/style.css" text="Playlist">
+                     <graphic>
+                        <ImageView fitHeight="34.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/img/playlist.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="white-background" />
+                        <String fx:value="mouse-moved" />
+                     </styleClass>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="182.0" stylesheets="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/css/style.css" text="Download">
+                     <graphic>
+                        <ImageView fitHeight="34.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/img/down.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="white-background" />
+                        <String fx:value="mouse-moved" />
+                     </styleClass>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox prefHeight="234.0" prefWidth="180.0" spacing="5.0">
+               <children>
+                  <Label prefHeight="46.0" prefWidth="75.0" text="Explore">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="37.0" prefWidth="180.0" stylesheets="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/css/style.css" text="New Song">
+                     <graphic>
+                        <ImageView fitHeight="34.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/img/new.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="white-background" />
+                        <String fx:value="mouse-moved" />
+                     </styleClass>
+                  </Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" stylesheets="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/css/style.css" text="Kind">
+                     <graphic>
+                        <ImageView fitHeight="34.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/img/kindofmusic.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="white-background" />
+                        <String fx:value="mouse-moved" />
+                     </styleClass>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="182.0" stylesheets="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/css/style.css" text="Top 10">
+                     <graphic>
+                        <ImageView fitHeight="34.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/img/chart.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="white-background" />
+                        <String fx:value="mouse-moved" />
+                     </styleClass>
+                  </Button>
+                  <HBox alignment="CENTER" prefHeight="55.0" prefWidth="180.0" spacing="10.0" styleClass="mouse-moved">
+                     <children>
+                        <VBox prefHeight="192.0" prefWidth="180.0" spacing="5.0">
+                           <children>
+                              <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="10.0" styleClass="mouse-moved" stylesheets="@../../../java/css/style.css" />
+                              <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="10.0" styleClass="mouse-moved" stylesheets="@../../../java/css/style.css" />
+                              <HBox alignment="CENTER" prefHeight="2.0" prefWidth="180.0" spacing="10.0" styleClass="mouse-moved" stylesheets="@../../../java/css/style.css" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefHeight="58.0" prefWidth="134.0" text="My Playlist">
+               <font>
+                  <Font name="Berlin Sans FB" size="15.0" />
+               </font>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </Label>
+            <ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="788.0" styleClass="transparent" stylesheets="@../../../java/css/style.css">
+               <VBox.margin>
+                  <Insets left="20.0" />
+               </VBox.margin>
+               <content>
+                  <VBox prefHeight="206.0" prefWidth="786.0" />
+               </content>
+            </ScrollPane>
+            <Label prefHeight="58.0" prefWidth="182.0" text="Sao cung duoc cho ni">
+               <font>
+                  <Font name="Berlin Sans FB" size="15.0" />
+               </font>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </Label>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

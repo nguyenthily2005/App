@@ -15,10 +15,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <top>
-      <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0" spacing="20.0" styleClass="white-background" stylesheets="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/css/style.css" BorderPane.alignment="CENTER">
+      <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0" spacing="20.0" styleClass="white-background" stylesheets="@css/style.css" BorderPane.alignment="CENTER">
          <children>
             <Label alignment="CENTER" prefHeight="60.0" prefWidth="138.0" text="My music" textFill="#a42727">
                <font>
@@ -26,12 +25,12 @@
                </font>
             </Label>
             <Separator maxHeight="-Infinity" orientation="VERTICAL" prefHeight="36.0" prefWidth="2.0" />
-            <HBox alignment="CENTER" maxHeight="-Infinity" prefHeight="35.0" prefWidth="290.0" styleClass="round-layout" stylesheets="@../../../java/css/style.css">
+            <HBox alignment="CENTER" maxHeight="-Infinity" prefHeight="35.0" prefWidth="290.0" styleClass="round-layout" stylesheets="@css/style.css">
                <children>
                   <TextField prefHeight="26.0" prefWidth="244.0" promptText="Search" styleClass="transparent" />
                   <ImageView fitHeight="25.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/img/search.png" />
+                        <Image url="@img/search.png" />
                      </image>
                   </ImageView>
                </children>
@@ -39,11 +38,11 @@
             <Pane prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
             <HBox alignment="CENTER" prefHeight="60.0" prefWidth="119.0">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="91.0" styleClass="transparent" stylesheets="@../../../java/css/style.css" text="Logout">
+                  <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="91.0" styleClass="transparent" stylesheets="@css/style.css" text="Logout">
                      <graphic>
                         <ImageView fitHeight="25.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/img/ly.png" />
+                              <Image url="@img/ly.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -60,7 +59,7 @@
       </HBox>
    </top>
    <left>
-      <VBox prefHeight="620.0" prefWidth="180.0" styleClass="white-background" stylesheets="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/css/style.css" BorderPane.alignment="CENTER">
+      <VBox prefHeight="620.0" prefWidth="180.0" styleClass="white-background" stylesheets="@css/style.css" BorderPane.alignment="CENTER">
          <children>
             <VBox prefHeight="234.0" prefWidth="180.0" spacing="5.0">
                <children>
@@ -72,11 +71,11 @@
                         <Insets left="10.0" />
                      </VBox.margin>
                   </Label>
-                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="37.0" prefWidth="180.0" text="Favorite">
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="37.0" prefWidth="180.0" stylesheets="@css/style.css" text="Favorite">
                      <graphic>
                         <ImageView fitHeight="34.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/img/fav.png" />
+                              <Image url="@img/fav.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -88,11 +87,11 @@
                         <String fx:value="mouse-moved" />
                      </styleClass>
                   </Button>
-                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" text="Playlist">
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" stylesheets="@css/style.css" text="Playlist">
                      <graphic>
                         <ImageView fitHeight="34.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/img/playlist.png" />
+                              <Image url="@img/playlist.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -104,11 +103,11 @@
                         <String fx:value="mouse-moved" />
                      </styleClass>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="182.0" text="Download">
+                  <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="182.0" stylesheets="@css/style.css" text="Download">
                      <graphic>
                         <ImageView fitHeight="34.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/img/down.png" />
+                              <Image url="@img/down.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -132,11 +131,11 @@
                         <Insets left="10.0" />
                      </VBox.margin>
                   </Label>
-                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="37.0" prefWidth="180.0" text="New Song">
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="37.0" prefWidth="180.0" stylesheets="@css/style.css" text="New Song">
                      <graphic>
                         <ImageView fitHeight="34.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/img/new.png" />
+                              <Image url="@img/new.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -148,11 +147,11 @@
                         <String fx:value="mouse-moved" />
                      </styleClass>
                   </Button>
-                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" text="Kind">
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" stylesheets="@css/style.css" text="Kind">
                      <graphic>
                         <ImageView fitHeight="34.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/img/kindofmusic.png" />
+                              <Image url="@img/kindofmusic.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -164,11 +163,11 @@
                         <String fx:value="mouse-moved" />
                      </styleClass>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="182.0" text="Top 10">
+                  <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="182.0" stylesheets="@css/style.css" text="Top 10">
                      <graphic>
                         <ImageView fitHeight="34.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="file:/C:/Users/TechCare/IdeaProjects/App/src/main/java/img/chart.png" />
+                              <Image url="@img/chart.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -196,7 +195,7 @@
                   <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                </padding>
             </Label>
-            <ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="788.0" styleClass="transparent" stylesheets="@../../../java/css/style.css">
+            <ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="788.0" styleClass="transparent" stylesheets="@css/style.css">
                <VBox.margin>
                   <Insets left="20.0" />
                </VBox.margin>

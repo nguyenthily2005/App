@@ -3,6 +3,7 @@ module music.app {
     requires javafx.fxml;
 
     requires com.dlsc.formsfx;
+    requires java.logging;
 
     opens music.app to javafx.fxml;
     exports music.app;
